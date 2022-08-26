@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/drawable/shape_dialog_edge_round.xml" value="0.169" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/drawable/shape_tv_dialog_brown_edge.xml" value="0.169" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/drawable/shape_tv_music_green_edge.xml" value="0.1335" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/activity_change_name.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/activity_splash.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/dialog_create.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/dialog_delete.xml" value="0.264" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/dialog_longclick.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/dialog_update.xml" value="0.19555143651529194" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/fragment_chat.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/fragment_friend.xml" value="0.20557197129590546" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/item_rv_chat.xml" value="0.20820863616930313" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/item_rv_friend_main.xml" value="0.4" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/item_rv_friend_profile.xml" value="0.4" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/item_rv_friend_update.xml" value="0.8" />
+        <entry key="..\:/risingCamp/RisingCamp3/app/src/main/res/layout/item_rv_single.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

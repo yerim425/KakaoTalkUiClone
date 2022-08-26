@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout_friendProfile"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:src="@drawable/ic_profile_basic"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="17dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="이름"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_music"
+        app:layout_constraintStart_toEndOf="@+id/iv_profile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/shape_tv_music_green_edge"
+        android:paddingVertical="5dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="18dp"
+        android:text="노래제목 - 가수"
+        android:textColor="@color/gray2_text"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_music_play"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginEnd="6dp"
+        app:tint="@color/green_edge"
+        app:layout_constraintTop_toTopOf="@id/tv_music"
+        app:layout_constraintEnd_toEndOf="@id/tv_music"
+        app:layout_constraintBottom_toBottomOf="@id/tv_music"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
